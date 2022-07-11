@@ -346,7 +346,8 @@ section .title::after {
   content: "what I know";
 }
 .skills .skills-content .column {
-  width: calc(50% - 30px);
+  width: 55%;
+  margin: auto;
 }
 .skills .skills-content .left .text {
   font-size: 20px;
