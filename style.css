@@ -620,7 +620,23 @@ footer span a:hover {
     font-size: 27px;
   }
 }
-
+@media (max-width: 499px){
+  .skills .skills-content .column {
+    width: 100%;
+    font-size: 11px;
+  }
+  .skills .skills-content .right span {
+    height: 68px;
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid crimson;
+    border-radius: 10%;
+    opacity: 0;
+    transition: all 1.5s ease;
+    transform: scale(0);
+  }
+}
 @media (max-width: 360px) {
   .contact .contact-content .column.left {
     font-size: 12px;
